@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vivek Joshi · Android Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        /* override to stack name and pill vertically */
+        .hero-top {
+            flex-direction: column;
+            gap: 12px;
+        }
+        /* keep the pill centered */
+        .theme-pill {
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- ═══ HERO ═══ -->
+    <section class="hero">
+        <!-- name + theme pill – now stacked vertically -->
+        <div class="hero-top">
+            <h1>Vivek Joshi</h1>
+
+            <div class="theme-pill" id="themePillButton">
+                <div class="theme-options-group" id="themeOptionsGroup">
+                    <div class="theme-option" data-theme-value="auto">
+                        <span class="theme-icon">🖥</span>
+                        <span>Auto</span>
+                    </div>
+                    <span class="theme-divider"></span>
+                    <div class="theme-option" data-theme-value="light">
+                        <span class="theme-icon">☀️</span>
+                        <span>Light</span>
+                    </div>
+                    <span class="theme-divider"></span>
+                    <div class="theme-option" data-theme-value="dark">
+                        <span class="theme-icon">🌙</span>
+                        <span>Dark</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- tagline -->
+        <div class="hero-tagline">✦&ensp;Don't Judges a book by its cover.&ensp;✦</div>
+
+        <!-- bio -->
+        <div class="hero-bio">
+            <strong>I'm an Android Developer.</strong><br />
+            A self-taught Android Applications enthusiast with 3+ years in the industry.<br />
+            I craft meaningful and delightful digital products that balance user needs with business goals.
+        </div>
+
+        <!-- CTA -->
+        <div class="hero-cta">
+            <a href="https://www.linkedin.com/in/vivek-joshi-73a9b5226" target="_blank" class="btn btn-primary">LinkedIn</a>
+            <a href="https://github.com/vivek-joshi-brucode" target="_blank" class="btn btn-outline">GitHub</a>
+            <a href="mailto:vivek.joshi@brucode.com" class="btn btn-outline">Email Me</a>
+        </div>
+    </section>
+
+    <!-- ═══ ABOUT ═══ -->
+    <section class="section">
+        <div class="section-label">About</div>
+        <div class="card">
+            <p style="font-size:16px; line-height:1.8;">
+                Passionate Android Developer with 3+ years of experience building
+                scalable, high-performance, and user-friendly mobile applications
+                using <strong>Java, Kotlin, Jetpack Compose, and Legacy XML UI</strong>.
+                Focused on clean architecture, performance optimization,
+                and elegant UI/UX implementation.
+            </p>
+        </div>
+    </section>
+
+    <!-- ═══ TECH STACK ═══ -->
+    <section class="section">
+        <div class="section-label">Tech Stack</div>
+        <div class="tags">
+            <span>Java</span><span>Kotlin</span><span>Legacy XML UI</span>
+            <span>Jetpack Compose</span><span>Android Studio</span>
+            <span>MVC</span><span>MVVM</span><span>Clean Architecture</span>
+            <span>Google Maps</span><span>Room DB</span><span>Coroutines</span>
+            <span>REST APIs</span><span>Firebase</span><span>MediaPipe</span>
+            <span>SOLID</span><span>Design Patterns</span>
+            <span>Git &amp; GitHub</span><span>Jira</span>
+            <span>Performance Optimization</span><span>Custom Views</span>
+        </div>
+    </section>
+
+    <!-- ═══ WORK EXPERIENCE ═══ -->
+    <section class="section">
+        <div class="section-label">Work Experience</div>
+
+        <div class="grid-2">
+            <div class="card">
+                <h3>Brucode Technologies Pvt Ltd</h3>
+                <div class="meta">Android Developer · May 2025 – Present</div>
+                <p>
+                    Leading Android development for enterprise logistics apps.
+                    Architecting scalable solutions with Jetpack Compose, MVVM,
+                    and performance-first patterns.
+                </p>
+                <a href="#" class="link">Learn More →</a>
+            </div>
+
+            <div class="card">
+                <h3>Ultivic Pvt Ltd</h3>
+                <div class="meta">Junior Android Developer · Jan 2023 – Mar 2025</div>
+                <p>
+                    Built and maintained 5+ production Android apps.
+                    Implemented modern UI with Compose, optimized networking,
+                    and integrated third-party SDKs for payments &amp; analytics.
+                </p>
+                <a href="#" class="link">Learn More →</a>
+            </div>
+
+            <div class="card">
+                <h3>Omninos Technologies Pvt Ltd</h3>
+                <div class="meta">Android Developer Intern · Jul 2022 – Dec 2022</div>
+                <p>
+                    Hands-on experience with full-cycle app development.
+                    Worked on custom UI components, RESTful integration,
+                    and collaborated with cross-functional teams.
+                </p>
+                <a href="#" class="link">Learn More →</a>
+            </div>
+
+            <div class="card">
+                <h3>Next Company is loading · This could be your company</h3>
+                <div class="meta">Senior Android Developer · Ambitious To Be</div>
+                <p>
+                    Lets schedule an Interview, Give me a chance to show case my Skills.
+                </p>
+                <a href="#" class="link">Eager to hear from you🫵</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ STATEMENT ═══ -->
+    <section class="section">
+        <div class="statement-block">
+            I'm currently looking to join a cross-functional team that values
+            <span>improving people's lives through Mobile Applications</span>.
+        </div>
+    </section>
+
+    <!-- ═══ FEATURED PROJECTS ═══ -->
+    <section class="section">
+        <div class="section-label">Featured Projects</div>
+
+        <div class="grid-2">
+
+            <div class="card">
+                <h3>Hublix SP — Service Provider Mobile App</h3>
+                <div class="meta">Fleet Compliance · Depot Management</div>
+                <p>
+                    Driver-focused logistics application built for DSP operations,
+                    helping drivers manage daily workflows from vehicle
+                    inspections to payroll visibility,
+                    incident reporting, and shift planning.
+                </p>
+                <ul>
+                    <li>Real-time earnings & performance tracking</li>
+                    <li>Vehicle relocation & reassignment</li>
+                    <li>Daily vehicle inspection workflow</li>
+                    <li>Incident reporting with photos & location</li>
+                    <li>Biometric authentication</li>
+                </ul>
+                <a href="https://play.google.com/store/apps/details?id=ai.da.hublix&hl=en_IN" target="_blank" class="link">View on Play Store →</a>
+            </div>
+
+            <div class="card">
+                <h3>Hublix OSM — On-Site Manager</h3>
+                <div class="meta">Fleet Compliance · Depot Management</div>
+                <p>
+                    Enterprise platform for depot managers to oversee vehicles,
+                    assign drivers, monitor operations, resolve incidents,
+                    and maintain VSA compliance across multiple sites.
+                </p>
+                <ul>
+                    <li>Vehicle assignment &amp; driver management</li>
+                    <li>Fleet compliance &amp; VSA tracking</li>
+                    <li>Incident &amp; dispute handling</li>
+                    <li>Multi-depot fleet operations</li>
+                </ul>
+                <a href="https://play.google.com/store/apps/details?id=ai.osm.hublix&hl=en_IN" target="_blank" class="link">View on Play Store →</a>
+            </div>
+
+            <div class="card">
+                <h3>Habit Mastery Challenge</h3>
+                <div class="meta">Reminder &amp; Habit Tracker</div>
+                <p>
+                    A habit tracking app that helps users build consistent
+                    routines with recurring reminders, Firebase notifications,
+                    and animated streak-based progress.
+                </p>
+                <ul>
+                    <li>Customizable daily &amp; weekly habit reminders</li>
+                    <li>Push notifications via Firebase Cloud Messaging</li>
+                    <li>Gamified plant growth based on streaks</li>
+                    <li>Secure auth, profile &amp; account deletion</li>
+                </ul>
+                <a href="https://play.google.com/store/apps/details?id=com.agicent.habitMastery&hl=en_IN" target="_blank" class="link">View on Play Store →</a>
+            </div>
+
+            <div class="card">
+                <h3>Loudly — Music &amp; Sound Booster</h3>
+                <div class="meta">Audio Enhancement · Equalizer</div>
+                <p>
+                    Android audio enhancement app that boosts device volume,
+                    improves sound quality, and provides a customizable
+                    equalizer for an immersive listening experience.
+                </p>
+                <ul>
+                    <li>200-step volume booster</li>
+                    <li>Maximize speaker output</li>
+                    <li>Advanced sound curve control</li>
+                    <li>Speaker cleaner utility</li>
+                </ul>
+                <a href="https://play.google.com/store/apps/details?id=feniksenia.app.speakerlouder90&hl=en_IN" target="_blank" class="link">View on Play Store →</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ═══ CONTACT ═══ -->
+    <section class="section">
+        <div class="section-label">Contact</div>
+        <div class="contact-row">
+            <p>
+                I'm currently looking to join a cross-functional team that values
+                improving people's lives through accessible design. Or have a
+                project in mind? Let's connect.
+            </p>
+            <a href="mailto:vivek.joshi@brucode.com" class="btn btn-primary">Contact</a>
+        </div>
+    </section>
+
+    <!-- ═════════ FOOTER ═════════ -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2026 Vivek Joshi. All rights reserved.</p>
+
+            <div class="footer-links">
+                <a href="mailto:vivek.joshi@brucode.com">Email</a>
+                <span>•</span>
+
+                <a href="https://github.com/vivek-joshi-brucode" target="_blank">
+                    GitHub
+                </a>
+
+                <span>•</span>
+
+                <a href="https://www.linkedin.com/in/vivek-joshi-73a9b5226" target="_blank">
+                    LinkedIn
+                </a>
+
+                <span>•</span>
+
+                <a href="assets/resume/resume.pdf"
+                   target="_blank">
+                    View Resume
+                </a>
+
+                <a href="assets/resume/resume.pdf"
+                   download>
+                    Download Resume
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<!-- Theme switcher script (unchanged) -->
+<script>
+    (function() {
+        function getSystemTheme() {
+            return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+
+        function getStoredTheme() {
+            return localStorage.getItem('theme') || 'auto';
+        }
+
+        function setTheme(mode) {
+            let effective;
+            if (mode === 'auto') {
+                effective = getSystemTheme();
+            } else {
+                effective = mode;
+            }
+            document.documentElement.setAttribute('data-theme', effective);
+
+            const options = document.querySelectorAll('.theme-option');
+            options.forEach(opt => {
+                const val = opt.getAttribute('data-theme-value');
+                if (val === mode) {
+                    opt.classList.add('active');
+                } else {
+                    opt.classList.remove('active');
+                }
+            });
+
+            localStorage.setItem('theme', mode);
+        }
+
+        function initTheme() {
+            const saved = getStoredTheme();
+            setTheme(saved);
+        }
+
+        function bindSwitcher() {
+            const options = document.querySelectorAll('.theme-option');
+            options.forEach(opt => {
+                opt.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    const val = this.getAttribute('data-theme-value');
+                    if (val) setTheme(val);
+                });
+            });
+        }
+
+        function setupAutoRefresh() {
+            const mq = window.matchMedia('(prefers-color-scheme: dark)');
+            mq.addEventListener('change', function() {
+                const current = localStorage.getItem('theme') || 'auto';
+                if (current === 'auto') {
+                    const newEffective = getSystemTheme();
+                    document.documentElement.setAttribute('data-theme', newEffective);
+                }
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            initTheme();
+            bindSwitcher();
+            setupAutoRefresh();
+        });
+    })();
+</script>
+
+</body>
+</html>
